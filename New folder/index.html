@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikusa44 - Developer Portfolio & FileBrowser Project</title>
+    <meta name="description" content="Entwickler-Portfolio von Nikusa44 mit FileBrowser-Projekt und modernen Web-Technologien">
+    <meta name="keywords" content="developer, portfolio, filebrowser, web development, github">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-code"></i>
+                <span>Nikusa44</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">Über mich</a>
+                <a href="#projects" class="nav-link">Projekte</a>
+                <a href="#filebrowser" class="nav-link">FileBrowser</a>
+                <a href="#contact" class="nav-link">Kontakt</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <div class="avatar-circle">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    Hallo, ich bin <span class="highlight">Nikusa44</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Entwickler & FileBrowser Enthusiast
+                </p>
+                <p class="hero-description">
+                    Willkommen auf meiner Portfolio-Website! Hier präsentiere ich meine Projekte, 
+                    insbesondere das FileBrowser-Projekt, und teile meine Leidenschaft für moderne 
+                    Web-Entwicklung und Open-Source-Technologien.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#filebrowser" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i>
+                        FileBrowser Projekt
+                    </a>
+                    <a href="https://github.com/nikusa44" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i>
+                        GitHub Profil
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Projekte</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Open Source</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Leidenschaft</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <span class="window-title">nikusa44@github:~$</span>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line">
+                                <span class="prompt">$</span>
+                                <span class="command">git status</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="output">On branch main</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="output">Your branch is up to date</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="prompt">$</span>
+                                <span class="command">npm run dev</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="output">🚀 Server running on port 3000</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="prompt">$</span>
+                                <span class="command typing">cat filebrowser.md</span>
+                                <span class="cursor">|</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Über mich</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Entwickler mit Leidenschaft für Innovation</h3>
+                    <p>
+                        Als begeisterter Entwickler beschäftige ich mich mit modernen Web-Technologien 
+                        und Open-Source-Projekten. Mein Fokus liegt auf der Entwicklung benutzerfreundlicher 
+                        Anwendungen und der kontinuierlichen Verbesserung bestehender Lösungen.
+                    </p>
+                    <p>
+                        Das FileBrowser-Projekt hat mich besonders fasziniert, da es ein perfektes Beispiel 
+                        für elegante Web-Entwicklung und praktische Anwendungsfälle darstellt. Ich arbeite 
+                        daran, solche Projekte zu verstehen und zu verbessern.
+                    </p>
+                    <div class="skills">
+                        <h4>Meine Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Web Dev</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-header">
+                            <i class="fas fa-terminal"></i>
+                            <span>Entwickler-Terminal</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="terminal-line">
+                                <span class="user">nikusa44@portfolio</span>
+                                <span class="path">~/projects</span>
+                                <span class="prompt">$</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="command">ls -la</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="output">filebrowser/</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="output">portfolio/</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="output">github-projects/</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meine Projekte</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge active">Aktiv</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FileBrowser Website</h3>
+                        <p>
+                            Eine moderne, responsive Website für das FileBrowser-Projekt mit 
+                            v2.43.0 Release-Informationen und interaktiven Features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#filebrowser" class="btn btn-small">
+                                <i class="fas fa-eye"></i>
+                                Ansehen
+                            </a>
+                            <a href="https://github.com/filebrowser/filebrowser" target="_blank" class="btn btn-small btn-outline">
+                                <i class="fab fa-github"></i>
+                                Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Live</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>
+                            Diese responsive Portfolio-Website, die auf GitHub Pages gehostet wird 
+                            und moderne Web-Technologien nutzt.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">GitHub Pages</span>
+                            <span class="tech-tag">Responsive</span>
+                            <span class="tech-tag">Modern UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://nikusa44.github.io" target="_blank" class="btn btn-small">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge planning">Geplant</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weitere Projekte</h3>
+                        <p>
+                            Zukünftige Projekte und Verbesserungen sind in Planung. 
+                            Folgen Sie meinem GitHub-Profil für Updates!
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Coming Soon</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nikusa44" target="_blank" class="btn btn-small btn-outline">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FileBrowser Section -->
+    <section id="filebrowser" class="filebrowser-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">FileBrowser Projekt</h2>
+                <p class="section-subtitle">
+                    Eine detaillierte Präsentation des FileBrowser-Projekts mit v2.43.0 Release-Informationen
+                </p>
+            </div>
+
+            <!-- FileBrowser Hero -->
+            <div class="filebrowser-hero">
+                <div class="filebrowser-content">
+                    <div class="filebrowser-logo">
+                        <i class="fas fa-folder-open"></i>
+                        <span>FileBrowser</span>
+                        <span class="version-badge">v2.43.0</span>
+                    </div>
+                    <h3>Moderner Web-Dateimanager</h3>
+                    <p>
+                        FileBrowser ist ein leistungsstarker, benutzerfreundlicher Web-Dateimanager, 
+                        der es Ihnen ermöglicht, Ihre Dateien über einen Browser zu verwalten. 
+                        Perfekt für Server-Administration und Remote-Dateizugriff.
+                    </p>
+                    <div class="filebrowser-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i>
+                            <span class="stat-number">31.2k</span>
+                            <span class="stat-label">GitHub Stars</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span class="stat-number">3.5k</span>
+                            <span class="stat-label">Forks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-download"></i>
+                            <span class="stat-number">Latest</span>
+                            <span class="stat-label">Release</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="filebrowser-preview">
+                    <div class="preview-header">
+                        <div class="preview-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <span class="preview-title">FileBrowser v2.43.0</span>
+                    </div>
+                    <div class="preview-content">
+                        <div class="file-list">
+                            <div class="file-item">
+                                <i class="fas fa-folder"></i>
+                                <span>Documents</span>
+                            </div>
+                            <div class="file-item">
+                                <i class="fas fa-folder"></i>
+                                <span>Images</span>
+                            </div>
+                            <div class="file-item">
+                                <i class="fas fa-file-alt"></i>
+                                <span>README.md</span>
+                            </div>
+                            <div class="file-item">
+                                <i class="fas fa-file-code"></i>
+                                <span>config.json</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h4>Web-basiert</h4>
+                    <p>Zugriff auf Ihre Dateien von überall über einen modernen Web-Browser</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Sicherheit</h4>
+                    <p>Robuste Authentifizierung und Autorisierung für sicheren Dateizugriff</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Responsive Design</h4>
+                    <p>Optimiert für Desktop, Tablet und mobile Geräte</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-upload"></i>
+                    </div>
+                    <h4>Drag & Drop</h4>
+                    <p>Einfaches Hoch- und Herunterladen von Dateien per Drag & Drop</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h4>Suche</h4>
+                    <p>Schnelle Dateisuche und Filterung in großen Verzeichnissen</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h4>Anpassbar</h4>
+                    <p>Vielseitige Konfigurationsoptionen für verschiedene Anwendungsfälle</p>
+                </div>
+            </div>
+
+            <!-- Release Info -->
+            <div class="release-info">
+                <div class="release-card">
+                    <div class="release-header">
+                        <h3>Neueste Version: v2.43.0</h3>
+                        <span class="release-date">Veröffentlicht am 13. September 2024</span>
+                    </div>
+                    <div class="release-content">
+                        <h4>Neue Features & Verbesserungen:</h4>
+                        <ul class="release-features">
+                            <li><i class="fas fa-check"></i> "Änderungen speichern" Button im Dialog zum Verwerfen von Änderungen</li>
+                            <li><i class="fas fa-check"></i> Spanische Übersetzung für die Benutzeroberfläche</li>
+                            <li><i class="fas fa-check"></i> Optimierte Höhe der Markdown-Vorschau</li>
+                            <li><i class="fas fa-check"></i> Verbesserte Projekt-Updates für File Browser</li>
+                            <li><i class="fas fa-check"></i> Französische Übersetzung für die Benutzeroberfläche</li>
+                            <li><i class="fas fa-check"></i> Verschiedene Bug-Fixes und Performance-Verbesserungen</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Download Options -->
+            <div class="download-section">
+                <h3>Download & Installation</h3>
+                <div class="download-options">
+                    <div class="download-card">
+                        <h4><i class="fas fa-download"></i> Binärdateien</h4>
+                        <p>Vorkompilierte Binärdateien für verschiedene Betriebssysteme</p>
+                        <a href="https://github.com/filebrowser/filebrowser/releases/tag/v2.43.0" target="_blank" class="btn btn-primary">
+                            Download v2.43.0
+                        </a>
+                    </div>
+                    <div class="download-card">
+                        <h4><i class="fab fa-docker"></i> Docker</h4>
+                        <p>Einfache Installation mit Docker</p>
+                        <code>docker run -p 8080:80 filebrowser/filebrowser</code>
+                    </div>
+                    <div class="download-card">
+                        <h4><i class="fas fa-terminal"></i> Go Install</h4>
+                        <p>Installation über Go Package Manager</p>
+                        <code>go install github.com/filebrowser/filebrowser@latest</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Kontakt</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Lassen Sie uns in Verbindung bleiben</h3>
+                    <p>
+                        Haben Sie Fragen zu meinen Projekten oder möchten Sie zusammenarbeiten? 
+                        Ich freue mich über Ihre Nachricht!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <p>Folgen Sie meinen Projekten</p>
+                                <a href="https://github.com/nikusa44" target="_blank">github.com/nikusa44</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Website</h4>
+                                <p>Diese Portfolio-Website</p>
+                                <a href="https://nikusa44.github.io" target="_blank">nikusa44.github.io</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-folder-open"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>FileBrowser</h4>
+                                <p>Das Hauptprojekt</p>
+                                <a href="https://github.com/filebrowser/filebrowser" target="_blank">filebrowser.org</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="form-card">
+                        <h3>Projekt-Ideen?</h3>
+                        <p>
+                            Haben Sie eine Idee für ein neues Projekt oder möchten Sie 
+                            an einem bestehenden Projekt mitarbeiten?
+                        </p>
+                        <div class="form-actions">
+                            <a href="https://github.com/nikusa44" target="_blank" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                GitHub besuchen
+                            </a>
+                            <a href="https://github.com/filebrowser/filebrowser" target="_blank" class="btn btn-secondary">
+                                <i class="fas fa-folder-open"></i>
+                                FileBrowser ansehen
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>Nikusa44</span>
+                    </div>
+                    <p>Entwickler mit Leidenschaft für moderne Web-Technologien und Open-Source-Projekte.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/nikusa44" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://github.com/filebrowser/filebrowser" target="_blank" class="social-link">
+                            <i class="fas fa-folder-open"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Projekte</h4>
+                    <ul>
+                        <li><a href="#filebrowser">FileBrowser Website</a></li>
+                        <li><a href="#projects">Portfolio Website</a></li>
+                        <li><a href="https://github.com/nikusa44" target="_blank">GitHub Profile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="https://filebrowser.org" target="_blank">FileBrowser Docs</a></li>
+                        <li><a href="https://github.com/filebrowser/filebrowser/releases" target="_blank">Releases</a></li>
+                        <li><a href="https://github.com/filebrowser/filebrowser/issues" target="_blank">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Technologien</h4>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript ES6+</li>
+                        <li>GitHub Pages</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nikusa44. Portfolio-Website mit FileBrowser-Projekt. Open Source unter MIT Lizenz.</p>
+                <p>Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
